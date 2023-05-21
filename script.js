@@ -99,5 +99,3 @@ btnOverlay.addEventListener("click", function (e) {
   //   cardFrontNumber.textContent = "0000 0000 0000 0000";
   //   cardFrontName.textContent = "Jane Appleseed";
 });
-
-// 1234123412341234
