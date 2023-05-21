@@ -24,7 +24,7 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <div role="contentinfo" class="main-grid">
+    <div role="main" class="main-grid">
       <section class="main-grid-background">
         <div class="main-grid-background__card-back">
           <span class="card-back_number">000</span>
@@ -39,9 +39,9 @@
           </div>
         </div>
       </section>
-      <section role="main" class="wrapper">
+      <section role="article" class="wrapper">
         <div class="main-grid-content">
-          <form role="form">
+          <form role="form" aria-label="form">
             <label>Cardholder Name</label><br />
             <input
               type="text"
@@ -88,17 +88,17 @@
           <button class="complete">Confirm</button>
         </div>
       </section>
-      <section role="contentinfo" data-expended="false" class="overlay">
+      <section role="article" data-expended="false" class="overlay">
         <div class="overlay-wrapper">
           <img role="img" src="images/icon-complete.svg" alt="complete" />
           <div></div>
-          <h2 role="alert">Thank you!</h2>
-          <span role="alertdialog"> We've added your card details</span>
+          <h2 role="text">Thank you!</h2>
+          <span role="text"> We've added your card details</span>
 
           <button type="button" class="continue">Continue</button>
         </div>
       </section>
-      <div class="attribution">
+      <div role="text" class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >CHi-hung Wen</a
