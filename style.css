@@ -267,7 +267,7 @@ button {
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 875px) {
   .main-grid {
     grid-template-columns: 35%;
     /* grid-template-rows: none; */
